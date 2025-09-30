@@ -3,56 +3,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SMICA INCORPORATED</title>
+  <title>CareConnect – Personal Support Services</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Navbar -->
   <header>
     <nav class="navbar">
-      <h1 class="logo">SMICA INCORPORATED</h1>
-      <div class="nav-links-wrapper">
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
+      <h1 class="logo">SMICA</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#how">How It Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
+  <!-- Hero Section -->
   <section class="hero">
-    <h2>Welcome to My Mom’s Page 💐</h2>
-    <p>A modern and simple website built with love.</p>
-    <button onclick="alert('Thanks for visiting!')">Say Hi</button>
-  </section>
-
-  <section id="about">
-    <h2>About</h2>
-    <p>This is a short description about my mom, her hobbies, and anything she wants to share.</p>
-  </section>
-
-  <section id="gallery">
-    <h2>Gallery</h2>
-    <div class="gallery">
-      <img src="images/photo1.jpg" alt="Photo 1">
-      <img src="images/photo2.jpg" alt="Photo 2">
-      <img src="images/photo3.jpg" alt="Photo 3">
+    <div class="hero-content">
+      <h2>Compassionate Support, Right When You Need It</h2>
+      <p>Reliable personal support workers providing care, comfort, and companionship at home.</p>
+      <a href="#contact" class="btn primary">Book a Session</a>
     </div>
   </section>
 
+  <!-- About Us -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At CareConnect, we believe in making care accessible and compassionate. 
+    Our team of professional Personal Support Workers (PSWs) is dedicated to supporting families and individuals with daily living, companionship, and specialized care needs.</p>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service">
+        <h3>Companionship</h3>
+        <p>Friendly conversation, emotional support, and recreational activities to improve quality of life.</p>
+      </div>
+      <div class="service">
+        <h3>Home Care</h3>
+        <p>Help with meal prep, light housekeeping, and daily living tasks to make life easier at home.</p>
+      </div>
+      <div class="service">
+        <h3>Medical Support</h3>
+        <p>Medication reminders, mobility assistance, and support for specific health needs.</p>
+      </div>
+      <div class="service">
+        <h3>Respite Care</h3>
+        <p>Temporary relief for family caregivers, ensuring loved ones receive quality support.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section id="how">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <span>1</span>
+        <p>Contact us with your care needs</p>
+      </div>
+      <div class="step">
+        <span>2</span>
+        <p>Get matched with a qualified PSW</p>
+      </div>
+      <div class="step">
+        <span>3</span>
+        <p>Receive compassionate, reliable care</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
   <section id="contact">
-    <h2>Contact</h2>
+    <h2>Request a Consultation</h2>
     <form>
       <input type="text" placeholder="Your Name" required>
       <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message"></textarea>
-      <button type="submit">Send</button>
+      <input type="tel" placeholder="Your Phone Number" required>
+      <textarea placeholder="Tell us about your care needs..." required></textarea>
+      <button type="submit">Submit Request</button>
     </form>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <p>© 2025 Made with ❤️ for Mom</p>
+    <p>© 2025 CareConnect. All rights reserved.</p>
+    <p>Email: info@careconnect.com | Phone: (123) 456-7890</p>
   </footer>
 
   <script src="script.js"></script>
