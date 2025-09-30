@@ -1,0 +1,14 @@
+/* Center the navbar title */
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo {
+	font-size: 2rem;
+	font-weight: 600;
+	color: #333;
+	text-align: center;
+	flex: 1;
+}
